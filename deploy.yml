@@ -31,7 +31,7 @@ spec:
   selector:
     app: springapp
   ports:
-  - Protocol: TCP
+  - protocol: TCP
     port: 80
     targetPort: 8082
     nodePort: 30000
